@@ -32,7 +32,7 @@ fi
 if [ ! -z "$(grep ^admin: /etc/group)" ] && [ -z "$1" ]; then
     echo "Error: group admin exists"
     echo
-    echo 'Please remove admin group before proceeding.'
+    echo 'Please remove admin group before proceesing.'
     echo 'If you want to do it automatically run installer with -f option:'
     echo "Example: bash $0 --force"
     exit 1
