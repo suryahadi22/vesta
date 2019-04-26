@@ -22,7 +22,7 @@ fi
 if [ ! -z "$(grep ^admin: /etc/passwd)" ] && [ -z "$1" ]; then
     echo "Error: user admin exists"
     echo
-    echo 'Please remove admin user before proceeding.'
+    echo 'Please remove admin user before proceesing.'
     echo 'If you want to do it automatically run installer with -f option:'
     echo "Example: bash $0 --force"
     exit 1
